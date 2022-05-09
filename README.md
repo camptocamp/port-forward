@@ -6,10 +6,11 @@ The following environment variables need to be defined
 
 1. `REMOTE_HOST` host you want to forward to
 2. `REMOTE_PORT` port on remote host to forward to
+3. `PORT` port to expose 
 
 port 80 inside the container will be forwarded to the remote host and port
 
-* use `-P` to have docker pick a random port on the host to forward
+* use `-p` to have docker pick a random port on the host to forward
 * use `-p <host_port>:80` to define a custom port to forward where `host_port` is the port on the host that needs to be forwarded
 
 ## example
