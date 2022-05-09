@@ -1,4 +1,4 @@
-FROM node:4
+FROM node:alpine3.15 
 
 EXPOSE 80
 
